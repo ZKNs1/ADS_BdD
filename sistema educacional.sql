@@ -1,5 +1,5 @@
 	--***************************--
-	--        COMANDOS SQL       --
+	--        COMANDOS DDL       --
 	--***************************--
 
 ----------------------
@@ -54,7 +54,11 @@ CREATE TABLE matricula_curso(
 )
 
 SELECT * FROM curso_disc
-SELECT * FROM matricula_curso
+
+
+	--***************************--
+	--        COMANDOS DML       --
+	--***************************--
 
 ----------------------
 --   INSERIR DADOS  --
@@ -99,6 +103,7 @@ INSERT INTO matriculas (cpf,status,id_cursos) VALUES
 ('45678912300','Concluído', 3),
 ('32165498700','Cursando', 4),
 ('78912345600','Cursando', 5)
+
 
 	--***************************--
 	--        COMANDOS DQL       --
